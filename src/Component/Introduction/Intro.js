@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Intro.scss";
+
 
 export default function Intro() {
   return (
-    <section>
-      <div>
+    <section className="intro-section">
+      <div className="intro-link">
         <Link className="linke" to="supportpage">
           <i class="fa-brands fa-square-x-twitter"></i>
         </Link>
@@ -15,13 +17,13 @@ export default function Intro() {
           <i class="fa-brands fa-github"></i>
         </Link>
       </div>
-      <div>
-        <img src="./image/gif1.gif" alt="" />
+      <div className="intro-img">
+        <img src="./images/img1.jpeg"  alt="" />
       </div>
       <div className="intro-tite">
-        <h1 className="intro-name">Hi, I'm Jeyi</h1>
+        <h1 className="intro-name">Hi, I'm Ikenna</h1>
         <h3 className="intro-subtitle">
-          Senior Frontend, Mobile, & UX Engineer
+          Senior Frontend Developer, & Design Engineer
         </h3>
         <p class="intro-description">
           Driven by a love for aesthetics and user-centric design, my journey in

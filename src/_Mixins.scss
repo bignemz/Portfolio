@@ -1,14 +1,13 @@
 
 @font-face {
-    font-family: Wimpykid;
-    src: url(../DiaryOfAWimpyKidFontRegular.ttf);
-  }
-  
+  font-family:Montserrat;
+  src: url(./Montserrat-Regular.ttf);
+}
 
 @mixin btn($blue-color:#19D3DA){
     width: 124px;
     height: 48px;
-    font-family:Wimpykid;
+    font-family:Montserrat;
     font-size: 20px;
     background-color:$blue-color ;
     border-radius: 24px;

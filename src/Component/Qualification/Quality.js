@@ -6,9 +6,11 @@ function Quality () {
   return (
   <div>
 
+  <h1>Qualification</h1>
+  <h3>My personal journey</h3>
     <div>
-    <h2>Education</h2>
-    <h2>Experience</h2>
+    <h2><span><i class="fa-solid fa-briefcase"></i></span>Education</h2>
+    <h2> <span><i class="fa-solid fa-graduation-cap"></i></span>  Experience</h2>
     </div>
     <div className="Quality-education">
    <div className="Quality-item">
