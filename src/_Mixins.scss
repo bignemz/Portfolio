@@ -4,13 +4,13 @@
   src: url(./Montserrat-Regular.ttf);
 }
 
-@mixin btn($blue-color:#19D3DA){
-    width: 124px;
-    height: 48px;
+@mixin btn($purple-color:#B15EFF,$width:184px,$height: 58px ){
+    width: $width;
+    height: $height;
     font-family:Montserrat;
-    font-size: 20px;
-    background-color:$blue-color ;
-    border-radius: 24px;
-    padding: 2px;
+    font-size:16px;
+    background-color:$purple-color ;
+    border-radius: 15px;
+    padding: 8px;
     margin-right: 2px;
 }

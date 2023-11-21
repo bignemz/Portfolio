@@ -1,29 +1,28 @@
 import React from 'react'
+import "./Project.scss";
+import Item from '../Item/Item';
+
 
 function Project() {
   return (
-    <div>
+    <section className="Project-section" id='Showcase' >
+    <div className="Project-title">
     <h1>Showcase</h1>
-    <h3>Project & Collaborations</h3>
-
-    <div>
-
-    <div>
-    <div>img</div>
-    <h2>BMI Project</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi exercitationem ab laborum repudiandae porro consequuntur animi ipsum, maxime cupiditate.</p>
-
-    <p>
-    <span className='stack1'></span>
-    <span className='stack2'></span>
-    <span className='stack3'></span>
-    <span className='stack4'></span>
-    </p>
+    <p>Project & Collaborations</p>
     </div>
+   
+
+    <div className="Project-work">
+    <Item/>
+
+
+    
+
+    
  
 
     </div>
-    </div>
+    </section>
   )
 }
 

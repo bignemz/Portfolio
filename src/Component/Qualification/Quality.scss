@@ -1,0 +1,197 @@
+@import "../../Variable";
+@import "../../Mixins";
+
+
+.quality-section{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 100px;
+    .quality-title{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .quality-head{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       column-gap: 20px;
+       padding-bottom: 40px;
+    }
+
+
+    .Quality-item{
+        display: flex;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        height: 130px;
+      
+     
+
+        .Quality-first{
+            width: 120px;
+            span{
+                font-size: 14px;
+            }
+           
+         
+
+        p{
+            i{
+                padding-right: 5px;
+            }
+            font-size: 13px;
+            padding-top: 10px;
+            
+
+        }
+
+        } 
+         .Quality-second{
+           
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+         
+
+            .Quality-round{
+          
+                width: 12px;
+                height: 12px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                border-radius: 50%;
+                background-color: $purple-color;
+            
+    
+            }
+            .Quality-line{
+                
+                width: 1px;
+                height: 95%;
+                
+                background-color: purple;
+                margin-bottom: 2x;
+    
+            }
+        
+
+        }
+        .Quality-last{
+            width: 120px;
+            span{
+                font-size: 14px;
+            }
+           
+         
+
+            p{
+                i{
+                    padding-right: 5px;
+                }
+                font-size: 13px;
+                padding-top: 10px;
+                
+    
+            }
+
+        }
+        
+
+    }
+    .Quality-education{
+
+        .Quality-item{
+            display: flex;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            height: 130px;
+          
+         
+    
+            .Quality-first{
+                width: 120px;
+                span{
+                    font-size: 14px;
+                }
+               
+             
+    
+            p{
+                i{
+                    padding-right: 5px;
+                }
+                font-size: 13px;
+                padding-top: 10px;
+                
+    
+            }
+    
+            } 
+             .Quality-second{
+               
+                width: 90px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+             
+    
+                .Quality-round{
+              
+                    width: 12px;
+                    height: 12px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                    border-radius: 50%;
+                    background-color: $purple-color;
+                
+        
+                }
+                .Quality-line{
+                    
+                    width: 1px;
+                    height: 85%;
+                    background-color: purple;
+                    margin-bottom: 2x;
+        
+                }
+            
+    
+            }
+            .Quality-last{
+                width: 120px;
+                span{
+                    font-size: 14px;
+                }
+               
+             
+    
+                p{
+                    i{
+                        padding-right: 5px;
+                    }
+                    font-size: 13px;
+                    padding-top: 10px;
+                    
+        
+                }
+    
+            }
+            
+    
+        }
+        
+
+     
+      
+    }
+
+
+}
