@@ -38,9 +38,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             width: 100%;
-            .Item-live{
-               
-            }
+         
             .Item-code{
                 justify-self: end;
           
@@ -65,12 +63,7 @@
                 padding-left: 10px;
                 color: $Grey-color;
             }
-            .Item-stack{
-
-            }
-            .Item-stack:first-child {
-                /* Your styles here */
-              }
+           
 
               .Item-stack:first-child {
                 color: red;
@@ -151,12 +144,7 @@
         flex-direction: column;
        
 
-    .Content-Title{
-
-    }
-    .Content-desc{
-
-    }
+  
     }
 
 
@@ -189,9 +177,8 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 width: 100%;
-                .Item-live{
-                   
-                }
+            
+                
                 .Item-code{
                     justify-self: end;
               
@@ -216,12 +203,7 @@
                     padding-left: 10px;
                     color: $Grey-color;
                 }
-                .Item-stack{
-    
-                }
-                .Item-stack:first-child {
-                    /* Your styles here */
-                  }
+               
     
                   .Item-stack:first-child {
                     color: red;
@@ -295,14 +277,7 @@
             align-items: center;
             gap: 40px;
             flex-direction: column;
-           
-    
-        .Content-Title{
-    
-        }
-        .Content-desc{
-    
-        }
+   
         }
     
     
@@ -339,9 +314,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 width: 100%;
-                .Item-live{
-                   
-                }
+           
                 .Item-code{
                     justify-self: end;
               
@@ -366,12 +339,7 @@
                     padding-left: 10px;
                     color: $Grey-color;
                 }
-                .Item-stack{
-    
-                }
-                .Item-stack:first-child {
-                    /* Your styles here */
-                  }
+            
     
                   .Item-stack:first-child {
                     color: red;
@@ -447,12 +415,7 @@
             flex-direction: column;
            
     
-        .Content-Title{
-    
-        }
-        .Content-desc{
-    
-        }
+      
         }
     
     
