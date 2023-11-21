@@ -170,7 +170,7 @@ export const Test =[
       stack1:"React",
       stack2:"SCSS",
       stack3:"Redux",
-      stack3:"Javascript",
+  
 
     },
     {
@@ -188,7 +188,7 @@ export const Test =[
       stack1:"React",
       stack2:"SCSS",
       stack3:"Redux",
-      stack3:"Javascript",
+      
     },
    
     {
@@ -206,7 +206,7 @@ export const Test =[
       stack1:"React",
       stack2:"SCSS",
       stack3:"Redux",
-      stack3:"Javascript",
+     
     },
 
 
