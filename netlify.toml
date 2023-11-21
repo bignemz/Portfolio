@@ -1,9 +1,9 @@
 [build]
   command = "npm run build"
   publish = "/build"
-  base ="my-app/"
+  base ="/"
 
 [[redirects]]
-  from = "/*"
+  from = "/portfolio/*"
   to = "/index.html"
   status = 200
