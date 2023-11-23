@@ -36,7 +36,7 @@ console.log(Des)
     <i class="fa-solid fa-code fa-2x logos"></i>
    <div >
    <h3>Frontend Developer</h3>
-   <p>3 years</p>
+   <p>2 years</p>
    </div>
 <span className='skill-down'>
 <i class="fa-solid fa-circle-chevron-down logos"></i>
@@ -127,39 +127,23 @@ console.log(Des)
 
     <div className="skill-quest">
     <div>
-      <p className="skill-stack">React & Redux</p>
+      <p className="skill-stack">AutoCAD Design</p>
     </div>
     <span className="skill-logo">
     <i class="fa-brands fa-react"></i>
     </span>
   </div>
 
-  <div className="skill-quest">
-  <div>
-    <p className="skill-stack">Javascript | Typescript</p>
-  </div>
-  <span className="skill-logo">
-  <i class="fa-brands fa-square-js"></i>
-  </span>
-</div>
-
 <div className="skill-quest">
 <div>
-  <p className="skill-stack">HTML</p>
+  <p className="skill-stack">AVEVA Design</p>
 </div>
 <span className="skill-logo">
 <i class="fa-brands fa-html5"></i>
 </span>
 </div>
 
-<div className="skill-quest">
-<div>
-  <p className="skill-stack">CSS | SASS</p>
-</div>
-<span className="skill-logo">
-<i class="fa-brands fa-css3-alt"></i>
-</span>
-</div>
+
 
 
     </div>

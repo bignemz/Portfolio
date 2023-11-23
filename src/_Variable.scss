@@ -4,8 +4,13 @@ $black-color:#373A40;
 $Grey-color:#686D76;
 $White-color:#F1EAFF;
 
-//FONT SIZE
-$Font-h1:3rem;
-$Font-h2:1.75rem;
-$Font-h3:1.5rem;
-$Font-h4:1.2rem;
+//FONT SIZE MOBILE
+$Font-s-h1:calc(32 /16 * 1rem);
+$Font-s-h2:calc(24 /16 * 1rem);
+$Font-s-h3:calc(18 /16 * 1rem);
+$Font-s-p:calc(15 /16 * 1rem);
+//FONT SIZE MOBILE
+$Font-m-h1:calc(48 /16 * 1rem);
+$Font-m-h2:calc(28 /16 * 1rem);
+$Font-m-h3:calc(48 /16 * 1rem);
+$Font-m-h4:calc(48 /16 * 1rem);

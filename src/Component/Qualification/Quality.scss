@@ -19,6 +19,10 @@
        grid-template-columns: 1fr 1fr;
        column-gap: 20px;
        padding-bottom: 40px;
+       h2{
+     
+        font-size: $Font-s-h3;
+       }
     }
 
 
@@ -32,6 +36,13 @@
 
         .Quality-first{
             width: 120px;
+            span{
+                font-size: 14px;
+            }
+            h3{
+                font-size: $Font-s-p;
+
+            }
             span{
                 font-size: 14px;
             }
@@ -87,7 +98,10 @@
             span{
                 font-size: 14px;
             }
-           
+            h3{
+                font-size: $Font-s-p;
+               
+            }
          
 
             p{

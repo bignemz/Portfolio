@@ -22,7 +22,7 @@
     grid-template-columns: 0.5fr 2fr;
     align-content: center;
     justify-content: center;
-    padding: calc(20 /16 * 1rem);
+    padding: calc(30 /16 * 1rem);
     grid-row-gap:calc(25 /16 * 1rem)  ;
     grid-column-gap:calc(25 /16 * 1rem)  ;
 
@@ -60,6 +60,15 @@
         order: 2;
         p{
             color: $Grey-color;
+        }
+        .intro-subtitle{
+            padding-top: 12px;
+
+         }
+         
+        .intro-description{
+            font-size: $Font-s-p;
+            line-height: 27px;
         }
 }
 .btn{

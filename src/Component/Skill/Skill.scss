@@ -20,7 +20,16 @@ padding-top: 100px;
     .skill-title{
         text-align: center;
 
+        h1{
+            font-size:$Font-s-h2;
 
+        }
+
+        span{
+            font-size:$Font-s-p; 
+            
+    
+        }
     }
     .skill-role{
         display: flex;
@@ -31,6 +40,14 @@ padding-top: 100px;
         padding-bottom: 50px;
         gap: 20px;
       border-bottom: 5px solid $purple-color;
+
+      h3{
+        font-size: $Font-m-h3;
+
+      }
+      p{
+        font-size: $Font-s-p;
+      }
 .skill-down{
     position: absolute;
     right: 1%;
@@ -45,7 +62,9 @@ padding-top: 100px;
         padding-bottom: 20px;
      
         border-bottom: 2px solid $purple-color;
-       
+        p{
+            font-size: $Font-s-p;
+          }
         .skill-logo {
             position: absolute;
             right: 1%;
@@ -66,18 +85,32 @@ padding-top: 100px;
     .skill-front{
         width: 300px;
       
-     padding-top: 50px;
+     padding-top: 4em;
         flex-direction: column;
         margin: 0 auto;
         font-family: Montserrat;
        
-     
+        h3{
+            font-size: $Font-s-h3;
+    
+          }
+          p{
+            font-size: $Font-s-p;
+          }
   
 
     }
     .skill-design{
         
-     padding-top: 70px;
+     padding-top: 40px;
+
+     h3{
+        font-size: $Font-s-h3;
+
+      }
+      p{
+        font-size: $Font-s-p;
+      }
         
     }
   }
