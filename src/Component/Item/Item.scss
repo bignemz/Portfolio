@@ -40,6 +40,10 @@
          
             .Item-code{
                 justify-self: end;
+                .linko{
+                    color: $black-color;
+                    text-decoration: none;
+                }
           
             }
         }

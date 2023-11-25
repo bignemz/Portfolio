@@ -159,6 +159,7 @@ export const Test =[
       Project: "Cruise Cart(E-commerce)",
       Img:"./images/cart1.png",
       link:"https://store-project-chinaeme.netlify.app",
+      code:"https://github.com/bignemz/Store-Project",
       id: 1,
       Con:[
         "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
@@ -177,6 +178,7 @@ export const Test =[
       Project: "Alpha(Fitness website)",
       Img:"./images/gym1.png",
       link:"https://gym-project-chinaeme.netlify.app",
+      code:"https://github.com/bignemz/FitnessApp",
       id: 1,
       Con:[
         "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
@@ -187,7 +189,7 @@ export const Test =[
       des: "Dive into a world of health and well-being with Alpha, a cutting-edge website designed to empower users on their fitness journey.  Alpha seamlessly integrates Mirage.js to create a simulated API server, providing users with an immersive experience in checking their BMI and selecting personalized fitness plans.",
       stack1:"React",
       stack2:"SCSS",
-      stack3:"Redux",
+      stack3:"HTML",
       
     },
    
@@ -195,6 +197,7 @@ export const Test =[
       Project: "Get-linked(Hackathon-website)",
       Img:"./images/get1.png",
       link:"https://nemz-hackaton.netlify.app",
+      code:"https://github.com/bignemz/Hackathon-project",
       id: 1,
       Con:[
         "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",

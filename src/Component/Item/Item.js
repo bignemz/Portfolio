@@ -20,7 +20,7 @@ function Item() {
     <div className="Item-title">
     <div className="Item-link">
     <div className="Item-live"  onClick={() => handleClick(index)}><i class="fa-solid fa-eye logos"></i>See more</div>
-    <div className="Item-code"><i class="fa-sharp fa-solid fa-code-branch logos"></i>Code</div>
+    <div className="Item-code"> <Link className="linko" to={item.code}><i class="fa-sharp fa-solid fa-code-branch logos"></i>Code</Link></div>
     </div>
     <div className="Item-pic"><img src={item.Img} alt=""/></div>
  <div className="Item-des">
