@@ -1,9 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
+
 import "./Skill.scss";
+
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 
 function Skill() {
   const [Front, setFront] = useState(true);
 const [Des, setDes] = useState(false);
+
+
+useEffect(()=>{
+  Aos.init({duration:1500 ,delay:"200"})
+})
 
 
 const handleFront = (index) => {
@@ -32,7 +42,7 @@ console.log(Des)
     <div>
     <div className='skill-set'>
     <div className='skill-front'>
-    <div className='skill-role' onClick={handleFront} >
+    <div data-aos="zoom-out-right"   className='skill-role' onClick={handleFront} >
     <i class="fa-solid fa-code fa-2x logos"></i>
    <div >
    <h3>Frontend Developer</h3>
@@ -45,7 +55,7 @@ console.log(Des)
     </div>
 
     { Front && (
-      <div >
+      <div  data-aos="zoom-out-right"  >
 
     <div className="skill-quest">
     <div>
@@ -109,7 +119,7 @@ console.log(Des)
     <div className='skill-design'>
 
 
-    <div  className='skill-role'  onClick={handleDes}>
+    <div data-aos="zoom-out-left" className='skill-role'  onClick={handleDes}>
     <i class="fa-solid fa-pen-nib fa-2x logos"></i>
    <div>
    <h3>Design Engineer</h3>

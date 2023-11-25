@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Intro.scss";
 import resume from'../../../src/Chinaeme_Frontend_Resume.pdf'
+import Aos from "aos";
+import "aos/dist/aos.css"
+
+
 
 export default function Intro() {
+
+  useEffect(()=>{
+    Aos.init({duration:1500 ,delay:"200"})
+  })
 
 
   return (
 
     <section className="intro">
-    <div className="intro-section" id="Home">
+    <div data-aos="zoom-out" className="intro-section" id="Home">
     <div className="intro-link">
       <Link className="linke" to="https://twitter.com/ice_dunk">
       <i class="fa-brands fa-square-x-twitter fa-2x"></i>
