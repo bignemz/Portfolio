@@ -169,7 +169,7 @@ export const Test =[
   
  
       ,
-      des: "Cruise Cart is an innovative E-Commerce website designed to redefine the online shopping experience, offering users a seamless and interactive journey through a vast array of products. Built with cutting-edge technologies including React, HTML, CSS, SCSS, JavaScript, and leveraging the power of the Redux toolkit, this platform represents the pinnacle of modern web ",
+      des: "Cruise Cart is an innovative E-Commerce website designed to redefine the online shopping experience, offering users a seamless and interactive journey through a vast array of products. I've ingeniously integrated a fake shop API to showcase the vibrant array of categories and items. Built with cutting-edge technologies including React, HTML, CSS, SCSS, JavaScript, and leveraging the power of the Redux toolkit, this platform represents the pinnacle of modern web . ",
       stack1:"React",
       stack2:"SCSS",
       stack3:"Redux",
@@ -185,7 +185,7 @@ export const Test =[
       code:"https://github.com/bignemz/FitnessApp",
       id: 1,
       Con:
-        " I have built the BMI checker into the platform to calculate your Body Mass Index, providing you with valuable insights into your fitness and well-being.I've also meticulously designed the websiteto be responsive across all devices. Your journey into the hackathon isn't confined to a desktop; it seamlessly adapts to your preferences"
+        " I have built the BMI checker into the platform to calculate your Body Mass Index, providing you with valuable insights into your fitness and well-being.I've also meticulously designed the websiteto be responsive across all devices. Your journey into the website isn't confined to a desktop; it seamlessly adapts to your preferences"
       
 
       ,
@@ -205,7 +205,7 @@ export const Test =[
       code:"https://github.com/bignemz/Hackathon-project",
       id: 1,
       Con:
-        "At the very core of my contribution lies the Redux Toolkit, meticulously chosen to ensure state management excellence. The seamless flow of data and interactions speaks to my commitment to creating not just a landing page but a resilient structure for the hackathon.. I've ingeniously integrated a fake shop API to showcase the hackathon's vibrant array of categories and items. I've also meticulously designed the landing page to be responsive across all devices. Your journey into the hackathon isn't confined to a desktop; it seamlessly adapts to your preferences",
+        "At the very core of my contribution lies the Redux Toolkit, meticulously chosen to ensure state management excellence. The seamless flow of data and interactions speaks to my commitment to creating not just a landing page but a resilient structure for the hackathon.'ve also meticulously designed the landing page to be responsive across all devices. Your journey into the hackathon isn't confined to a desktop; it seamlessly adapts to your preferences",
        
 
       
