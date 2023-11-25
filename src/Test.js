@@ -1,7 +1,7 @@
 export const Test =[
     {
       name: "Joshua Chike-Obi",
-      Img:"./images/img1.jpeg",
+      Img:"./images/ik.jpeg",
       id: 1,
       role:"CEO & Founder Aba-made",
       des: " During his time at Abamade in Lagos, Ikenna played a pivotal role in designing and coding web applications, showcasing a strong problem-solving ability in debugging and diagnosing root causes. "
@@ -10,7 +10,7 @@ export const Test =[
     },
     {
         name: "Daniel",
-        Img:"./images/img1.jpeg",
+        Img:"./images/contact.jpg",
         id: 2,
         role:"Full-Stack Developer",
         des: "Ikenna brings a positive and collaborative attitude to the team. It was a pleasure working with someone who not only excels professionally but also contributes positively to the team dynamic."
@@ -18,7 +18,7 @@ export const Test =[
    
       {
         name: "Chidi",
-        Img:"./images/img1.jpeg",
+        Img:"./images/contact.jpg",
         id: 3,
         role:"Full-Stack Developer",
         des: "I was particularly impressed by Ikenna's commitment to maintaining high-quality graphic standards and brand consistency in all projects. his passion for innovation, evident in the implementation of features like Optimistic UI and interactive landing pages"

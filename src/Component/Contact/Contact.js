@@ -31,7 +31,7 @@ function Contact() {
     <div className="Contact-info">
     <div >
     <div className="Contact-link">
-    <Link className="Contact-linke" to="supportpage">
+    <Link className="Contact-linke" to="https://twitter.com/ice_dunk">
       <i class="fa-brands fa-square-x-twitter fa-2x"></i>
     </Link>
     <div>

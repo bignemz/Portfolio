@@ -38,10 +38,10 @@ function Footer() {
               <h5>Follow me</h5>
             </div>
             <div className="social">
-              <Link className="linke" to="supportpage">
+              <Link className="linke" to="https://twitter.com/ice_dunk">
                 <i class="fa-brands fa-square-x-twitter"></i>
               </Link>
-              <Link className="linke" to="supportpage">
+              <Link className="linke" to="https://github.com/bignemz">
                 <i class="fa-brands fa-github"></i>
               </Link>
             </div>

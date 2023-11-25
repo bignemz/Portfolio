@@ -12,7 +12,7 @@ export default function Intro() {
     <div className="intro-section" id="Home">
     <div className="intro-link">
       <Link className="linke" to="supportpage">
-        <i class="fa-brands fa-square-x-twitter fa-lg"></i>
+      <i class="fa-brands fa-square-x-twitter fa-lg"></i>
       </Link>
       <Link className="linke" to="https://github.com/bignemz">
         <i class="fa-brands fa-github fa-lg"></i>
@@ -22,7 +22,7 @@ export default function Intro() {
       </Link>
     </div>
     <div className="intro-img">
-      <img src="./images/img1.jpeg"  alt="" />
+      <img src="./images/nemz.jpeg" alt="" />
     </div>
     <div className="intro-title">
       <h1 className="intro-name">Hello, I'm Ikenna</h1>
@@ -34,9 +34,7 @@ export default function Intro() {
       </p>
 
       <a href={resume} download="Resume"> <div className="btn">  <div>Download Cv  <i class="fa-solid fa-download"></i></div></div></a>
-  
     </div>
-
   </div>
     </section>
 

@@ -32,9 +32,10 @@ console.log(Exp)
   <p>My personal journey</p>
   </div>
     <div className="quality-head">
-    <h2 onClick={handleEdu} ><span><i class="fa-solid fa-graduation-cap"></i></span>Education</h2>
+   
     <h2 onClick={handleExp}> <span><i class="fa-solid fa-briefcase"></i></span>  Experience
     </h2>
+    <h2 onClick={handleEdu} ><span><i class="fa-solid fa-graduation-cap"></i></span>Education</h2>
     </div>
 
     { Exp && (
@@ -116,7 +117,7 @@ console.log(Exp)
    <div className="Quality-last">
    <h3>React.js,Next,js</h3>
    <p>Udemy,Youtube</p>
-   <p><span><i class="fa-regular fa-calendar-check"></i></span>2021</p>
+   <p><span><i class="fa-regular fa-calendar-check"></i></span>2020-2023</p>
    </div>
    </div>
 
@@ -146,7 +147,7 @@ console.log(Exp)
    <div className="Quality-last">
    <h3>Mechtronics Engineer</h3>
    <p>ABUAD  UNIVERSITY</p>
-   <p><span><i class="fa-regular fa-calendar-check"></i></span>Sept2017-July2023</p>
+   <p><span><i class="fa-regular fa-calendar-check"></i></span>2017-2022</p>
   
 
    </div>

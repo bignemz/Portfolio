@@ -39,7 +39,7 @@ console.log(Des)
    <p>2 years</p>
    </div>
 <span className='skill-down'>
-<i class="fa-solid fa-circle-chevron-down logos"></i>
+{ Front ? <i class="fa-solid fa-circle-chevron-down logos"></i> :<i class="fa-solid fa-circle-chevron-up logos"></i>}
 </span>
    
     </div>
@@ -117,7 +117,7 @@ console.log(Des)
    </div>
 
    <span className='skill-down'>
-   <i class="fa-solid fa-circle-chevron-down logos"></i>
+   { Des ? <i class="fa-solid fa-circle-chevron-down logos"></i> :<i class="fa-solid fa-circle-chevron-up logos"></i>}
 </span>
 
    
