@@ -10,17 +10,10 @@ function Project() {
     <h1>Showcase</h1>
     <p>Project & Collaborations</p>
     </div>
-   
-
     <div className="Project-work">
+
+    
     <Item/>
-
-
-    
-
-    
- 
-
     </div>
     </section>
   )

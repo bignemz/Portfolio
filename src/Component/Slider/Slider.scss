@@ -9,8 +9,6 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    
-  
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -26,14 +24,12 @@
 
   .Test-card{
     display: flex;
-  
     align-items: start;
     text-align: left;
     flex-direction: column;
     width: 300px;
     height: 330px;
     max-width: 400px;
-  
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -41,10 +37,7 @@
 
     .Test-des{
       padding-top: 20px;
-    
-        font-size: $Font-s-p;
-    
-
+      font-size: $Font-s-p;
   }
 
     .Test-profile{
@@ -53,7 +46,7 @@
         align-items: center;
         gap: 40px;
         h3{
-          font-size: $Font-s-h3;
+          font-size: $Font-s-p;
         }
         p{
           font-size: $Font-s-p;
@@ -66,7 +59,6 @@
                 height:  70px;
                 border-radius: 50%;
             }
-
         }
      
      

@@ -7,14 +7,12 @@
 // @media screen and (min-width: 780px) {}
 // @media screen and (min-width: 1024px) {}
 
-
-// display: grid;
-// grid-template-columns: 1fr 1fr;
 .Item-section{
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    margin-top: 30px;
+    gap: 50px;
+    margin-top: 40px;
+  
     justify-content: center;
     align-items: center;
 
@@ -25,11 +23,12 @@
     .Item-title{
         display: flex;
         width: 300px;
-        height: 417px;
+        height: 420px;
         background-color: #B15EFF30;
         border-radius: 10px;
-        padding: 30px;
-           
+        padding-left: 10px;
+        padding-right:  10px;
+        padding: 10px;
        justify-content: center;
        align-items: center;
         flex-direction: column;
@@ -46,21 +45,22 @@
         }
         .Item-pic{
          img{
-            padding-top: 15px;
-            width: 230px;
+            padding-top: 10px;
+            width: 250px;
             height: 150px;
-            border-radius: 10px;
+      
+
          }
     
         }
         .Item-des{
+            height: 150px;
             h4{
-                padding-top: 5px;
-                padding-left: 10px;
+                padding: 5px;
             }
             p{
-                padding-top: 5px;
-                padding-left: 10px;
+                padding: 5px;
+               
                 color: $Grey-color;
             }
            
@@ -78,7 +78,6 @@
         justify-content: center;
         align-items: center;
         color:$black-color ;
-        margin: 10px;
         background-color:$White-color;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         text-decoration: none;
@@ -138,12 +137,18 @@
 
     .Modal-Profile{
         display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 40px;
         flex-direction: column;
-       
+        padding: 20px;
+        .Content-desc{
+            padding-top: 5px;
+           }
 
+        img{
+            width: 80%;
+            height: 400px;
+            border-radius: 20px;
+        }
   
     }
 
@@ -273,10 +278,14 @@
     
         .Modal-Profile{
             display: flex;
-            justify-content: center;
-            align-items: center;
             gap: 40px;
             flex-direction: column;
+           
+    
+            img{
+                width: 80%;
+                height: 400px;
+            }
    
         }
     
@@ -409,10 +418,14 @@
     
         .Modal-Profile{
             display: flex;
-            justify-content: center;
-            align-items: center;
             gap: 40px;
             flex-direction: column;
+           
+        
+            img{
+                width: 80%;
+                height: 400px;
+            }
            
     
       

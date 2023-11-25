@@ -17,7 +17,6 @@ function Item() {
     <section className="Item-section" >
     {ite.map((item, index) => ( 
 
-    <div>
     <div className="Item-title">
     <div className="Item-link">
     <div className="Item-live"  onClick={() => handleClick(index)}><i class="fa-solid fa-eye logos"></i>See more</div>
@@ -37,7 +36,7 @@ function Item() {
  </div>
  </Link>
  
-    </div>
+
 
   
     {index === More && (
@@ -50,19 +49,19 @@ function Item() {
    
       <div className='Modal-Content'>
       <h4 className='Content-Title'>Company</h4>
-      <div className='Content-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corrupti nihil nobis aut reprehenderit est asperiores earum officia velit maxime, ratione soluta commodi ullam beatae.</div>
+      <div className='Content-desc'>{item.Project}</div>
       </div>
     
       
     
       <div className='Modal-Content'>
       <h4 className='Content-Title'>About</h4>
-      <div className='Content-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corrupti nihil nobis aut reprehenderit est asperiores earum officia velit maxime, ratione soluta commodi ullam beatae.</div>
+      <div className='Content-desc'>{item.des}</div>
       </div>
     
       <div className='Modal-Content'>
       <h4 className='Content-Title'>Technologies</h4>
-      <div className='Content-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corrupti nihil nobis aut reprehenderit est asperiores earum officia velit maxime, ratione soluta commodi ullam beatae.</div>
+      <div className='Content-desc'>{item.stack1},{item.stack2},{item.stack3}</div>
       </div>
     
       <div className='Modal-Content'>
@@ -72,7 +71,7 @@ function Item() {
     
       <div className='Modal-Content'>
       <h4 className='Content-Title'>Image</h4>
-      <div className='Content-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corrupti nihil nobis aut reprehenderit est asperiores earum officia velit maxime, ratione soluta commodi ullam beatae.</div>
+      <div className='Content-desc'><img src={item.Img} alt=""/></div>
       </div>
     
     
