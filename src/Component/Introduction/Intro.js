@@ -22,7 +22,7 @@ export default function Intro() {
       </Link>
     </div>
     <div className="intro-img">
-      <img src="./images/nemz.jpeg" alt="" />
+      <img src="./images/img1.jpeg"  alt="" />
     </div>
     <div className="intro-title">
       <h1 className="intro-name">Hello, I'm Ikenna</h1>
