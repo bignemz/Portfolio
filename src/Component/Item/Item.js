@@ -61,17 +61,17 @@ function Item() {
     
       <div className='Modal-Content'>
       <h4 className='Content-Title'>Technologies</h4>
-      <div className='Content-desc'>{item.stack1},{item.stack2},{item.stack3}</div>
+      <div className='Content-desc'>{item.stack1},{item.stack2},{item.stack3},{item.stack4}</div>
       </div>
     
       <div className='Modal-Content'>
       <h4 className='Content-Title'>My Contribution</h4>
-      <div className='Content-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corrupti nihil nobis aut reprehenderit est asperiores earum officia velit maxime, ratione soluta commodi ullam beatae.</div>
+      <div className='Content-desc'>{item.Con}</div>
       </div>
     
       <div className='Modal-Content'>
       <h4 className='Content-Title'>Image</h4>
-      <div className='Content-desc'><img src={item.Img} alt=""/></div>
+      <div className='Content-desc'><img src={item.Img2} alt=""/></div>
       </div>
     
     

@@ -11,14 +11,14 @@ export default function Intro() {
     <section className="intro">
     <div className="intro-section" id="Home">
     <div className="intro-link">
-      <Link className="linke" to="supportpage">
-      <i class="fa-brands fa-square-x-twitter fa-lg"></i>
+      <Link className="linke" to="https://twitter.com/ice_dunk">
+      <i class="fa-brands fa-square-x-twitter fa-2x"></i>
       </Link>
       <Link className="linke" to="https://github.com/bignemz">
-        <i class="fa-brands fa-github fa-lg"></i>
+        <i class="fa-brands fa-github fa-2x"></i>
       </Link>
       <Link className="linke" to="https://www.linkedin.com/in/emerole-chinaeme-61324719a">
-      <i class="fa-brands fa-linkedin fa-lg"></i>
+      <i class="fa-brands fa-linkedin fa-2x"></i>
       </Link>
     </div>
     <div className="intro-img">

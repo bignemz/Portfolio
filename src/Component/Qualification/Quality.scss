@@ -19,6 +19,9 @@
        grid-template-columns: 1fr 1fr;
        column-gap: 20px;
        padding-bottom: 40px;
+       .live{
+        color: $purple-color;
+       }
        h2{
      
         font-size: $Font-s-h3;

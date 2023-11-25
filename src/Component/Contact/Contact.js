@@ -31,16 +31,16 @@ function Contact() {
     <div className="Contact-info">
     <div >
     <div className="Contact-link">
-    <Link className="Contact-linke" to="https://twitter.com/ice_dunk">
-      <i class="fa-brands fa-square-x-twitter fa-2x"></i>
+    <Link className="Contact-linke" to="https://www.linkedin.com/in/emerole-chinaeme-61324719a">
+    <i class="fa-brands fa-linkedin fa-2x"></i>
     </Link>
     <div>
     <h2>Connect</h2>
-    <p>Twitter</p>
+    <p>Linkedin</p>
     </div>
     </div>
     <div className="Contact-link">
-    <Link className="Contact-linke" to="supportpage">
+    <Link className="Contact-linke" to="mailto:Emeroleikenna123@gmail.com">
     <i class="fa-solid fa-envelope fa-2x"></i>
   </Link>
   <div>

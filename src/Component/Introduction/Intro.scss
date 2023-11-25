@@ -44,8 +44,9 @@
     }
     .intro-img{
         align-self: center;
+        justify-self: center;
         img{
-            border-radius: 50%;
+            border-radius:  33% 67% 71% 29% / 54% 44% 56% 33%;
             width: calc(200 /16 * 1rem);
             height: calc(200 /16 * 1rem);
         }
@@ -130,10 +131,10 @@
                }
          }
          .intro-img{
-            
+            justify-self: start;
         
-             img{
-                 border-radius: 50%;
+             img{    
+                border-radius:  33% 67% 71% 29% / 54% 44% 56% 33%;
                  width: calc(200 /16 * 1rem);
                  height: calc(200 /16 * 1rem);
              }
@@ -217,13 +218,14 @@
          }
          .intro-img{
             justify-content: center;
+            justify-self: start;
           
             order: 3;
          
             
         
              img{
-                 border-radius: 50%;
+                border-radius:  33% 67% 71% 29% / 54% 44% 56% 33%;
                  width: calc(300 /16 * 1rem);
                  height: calc(300 /16 * 1rem);
                  justify-self: center;

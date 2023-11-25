@@ -33,9 +33,16 @@ console.log(Exp)
   </div>
     <div className="quality-head">
    
-    <h2 onClick={handleExp}> <span><i class="fa-solid fa-briefcase"></i></span>  Experience
-    </h2>
-    <h2 onClick={handleEdu} ><span><i class="fa-solid fa-graduation-cap"></i></span>Education</h2>
+    { Exp ? <h2 onClick={handleExp} className="live"> <span><i class="fa-solid fa-briefcase"></i></span>  Experience
+    </h2> : <h2 onClick={handleExp} > <span><i class="fa-solid fa-briefcase"></i></span>  Experience
+    </h2> }
+
+    { Edu ?
+    <h2 onClick={handleEdu} className="live"><span><i class="fa-solid fa-graduation-cap"></i></span>Education</h2> :
+    <h2 onClick={handleEdu}  ><span><i class="fa-solid fa-graduation-cap"></i></span>Education</h2>
+
+  
+  }
     </div>
 
     { Exp && (
@@ -71,8 +78,8 @@ console.log(Exp)
 
    <div className="Quality-item">
    <div className="Quality-first">
-   <h3>Frontend Developer  <span>(Freelancer)</span></h3>
-   <p>Upwork</p>
+   <h3>Frontend Developer <span> (intern)</span></h3>
+   <p>Abamade</p>
    <p><span><i class="fa-regular fa-calendar-check"></i></span>June2022-Nov2022</p>
 
    </div>
@@ -94,7 +101,7 @@ console.log(Exp)
    <div className="Quality-last">
    <h3>Frontend Developer  <span>(Freelancer)</span></h3>
    <p>Upwork</p>
-   <p><span><i class="fa-regular fa-calendar-check"></i></span>June2022-Nov2022</p>
+   <p><span><i class="fa-regular fa-calendar-check"></i></span>2022</p>
 
    </div>
    </div>
